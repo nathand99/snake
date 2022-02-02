@@ -88,7 +88,7 @@ def snake_move():
         return True
     # if we moved onto an apple - dont cut the tail and make a new apple
     if new_tile == apple_co:
-        BITE_SOUND.play()
+        #BITE_SOUND.play() # sound isnt great
         snake = [new_tile] + snake
         apple()
         update_score()
@@ -176,7 +176,7 @@ wait()
 MOVEEVENT, t = pg.USEREVENT+1, speed
 pg.time.set_timer(MOVEEVENT, t)
 # run the game loop forever
-while(True):
+while True:
     for event in pg.event.get():
         if event.type == QUIT:
             pg.quit()
