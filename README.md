@@ -2,6 +2,7 @@
 
 Snake is a game made using the [Pygame](https://www.pygame.org/news) Python library. After reading a tutorial on Pygame and looking at some code, I decided to whip up something and this snake game was created. It was a fun game to make and pygame is the perfect library to use if you want to quickly make a game like snake.  
 
+![grab-landing-page](https://github.com/nathand99/snake/blob/master/gameplay.gif)
 ## Installation
 
 The only package needed is Pygame.
